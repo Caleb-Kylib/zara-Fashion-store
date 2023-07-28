@@ -1,0 +1,43 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login page</title>
+    </head>
+    <body class="container-fluid">
+    
+     <div class="d-flex justify-content-center align-items-center style="height:500px">
+      <h2>Login</h2>
+      <form id="loginForm" onsubmit="login(event)">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required><br><br>
+        <input type="submit" value="Log In">
+      </form>
+      </div>
+<script>
+
+      function login(event) {
+        event.preventDefault(); // Prevent form submission from refreshing the page
+      
+        // Get the values entered in the form
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+      
+        // Perform your login logic here
+        // You can check the entered username and password against a database or any other authentication method
+      
+        // For demonstration purposes, let's check if the username and password are "admin"
+        if (username === 'admin' && password === 'admin') {
+          // If the login is successful, display a success message
+          document.getElementById('message').innerHTML = 'Login successful!';
+        } else {
+          // If the login fails, display an error message
+          document.getElementById('message').innerHTML = 'Invalid username or password.';
+        
+    }};
+      </script>
+    </body>
+    </html>
