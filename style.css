@@ -1,5 +1,29 @@
-@media (min-width: 768px) {
-    .news-input {
-        width: 50%;
-    }
+main{
+    background-color: beige;
+    background: url(./images/jason-an-nO4bB9ucUVY-unsplash.jpg);
+    height:fit-content;
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
 }
+h1 span{
+    color:black;
+}
+p{
+    font-size: 30px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: black;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+.card{
+    display: flex;
+
+
+}
+
