@@ -77,9 +77,23 @@ p{
   
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2em;
+  }
+  .card-img{
+    border-radius: 50%;
+    height: 100px;
+  }
+  .p-button{
+    display: flex;
+    justify-content: center;
   }
   
   /* Some left and right padding inside the container */
   .container {
     padding: 0 16px;
-  }
+}
