@@ -85,10 +85,21 @@ p{
     padding: 2em;
   }
   .card-img{
-    border-radius: 50%;
-    height: 100px;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    max-height: 200px;
+    aspect-ratio: 16 / 9;
   }
-  .p-button{
+  .button{
+    background: hsl(200, 50%, 50%);
+    color:red;
+    border: none;
+    font-size: 1rem;
+    padding: .5em .75em;
+    cursor: pointer;
     display: flex;
     justify-content: center;
   }
