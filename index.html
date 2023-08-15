@@ -122,12 +122,18 @@
                   <div class="container">
                     <h2>Smart Casual</h2>
                     
-                    <button class="btn-danger">VIEW</button>
+                    <button class="btn-dange" onclick="gotoLink(this)" value="sneakers.html">sneakers</button>
+                    </button>
                   </div>
                 </div>
               </div>
         
-  
+     <script>
+      function gotoLink(link){
+        console.log(link.value);
+        location.href ='sneakers.html';
+      }
+     </script>
           
           <!--
 <div class="column">
