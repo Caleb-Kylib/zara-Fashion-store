@@ -108,3 +108,36 @@ p{
   .container {
     padding: 0 16px;
 }
+
+.product-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-inline: 1rem;
+    max-width: 40rem;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+article {
+    height: 450px;
+    width: 650px;
+    display: flex;
+    background-color: var(--clr-neutral-100);
+    box-shadow: 0 0 10px 5px hsla(228, 12%, 48%, 0.1);
+    margin: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product-image {
+    content: url("/images/image-product-desktop.jpg");
+    width: 20rem;
+}
+.product-img{
+    content: url(./images/limited\ ed.jpg);
+    width: 20rem;
+}
+.product-content {
+    flex-basis: 50%;
+}
+
+    
