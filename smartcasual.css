@@ -13,6 +13,16 @@ body{
     background-size: cover;
     padding: 10rem 0 0;
     max-width: 35ch;
+    width: 80%;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    
+
+    transition: transform 500ms ease;
+}
+
+.card-hover{
+    transform: scale(1.05);
 }
 
 .card-content{
