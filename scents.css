@@ -1,0 +1,21 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: black;
+    font-size: 0.875rem;
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+}
+
+.flex-group{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.product{
+    background-color: beige;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
