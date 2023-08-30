@@ -1,266 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-            <div class="container">
-                <a href="#" class="navbar-brand">TRIFT NATION</a>
-                <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navmenu">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#products" class="nav-link">OUR PRODUCTS</a> 
-                    </li>
-                    <li class="nav-item">
-                        <a href="#questions" class="nav-link">RESOURCES</a> 
-                    </li>
-                    <li class="nav-item">
-                        <a href="#products" class="nav-link">BLOG</a> 
-                    </li>
-                    <li class="nav-item">
-                    <a href="#products" class="nav-link">MEDIA</a> 
-                </li>
-                <li class="nav-item">
-                      <a href="login.html" class="nav-link">LOGIN</a> 
-                  </li>
-                  
+    <title>Helpgrove</title>
+    <link rel="stylesheet" href="./style.css">
+ </head>
+ <body>
+    
+    <header>
+      <nav>
+        <div class="logo">Helpgrove</div>
+        <ul class="nav-links"> 
+               <li><a href=ourcauses.html">Ourcauses</a></li>              
+                <li><a href="events.html">Events</a></li>     
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                </ul>
+        </div>
     </nav>
-    <main>
-    <section class="bg-image text-light p-5 text-center"> <!--padding all way around & dark background with light text-->
-        <div class="container">
-            <div class="d-sm-flex align-items-center justify-content-between">
-                <div>
-                    <h1><span class="text-center">Huge Summer Collection</span> </h1>
-                    <p> Official menswear,Ladieswear, sunglasses, accessories and so much more available now.
-                    </p>
-                    <button class="btn btn-danger btn-lg">Explore Now</button>
-                </div>
-            </div>
-        </div>
-    </section>
-    </main>
-
-    <div class="top-picks">
-        <div id-="Top-picks">
-            <h1>TOP PICKS</h1>
-        </div>
-
-    </div>
-
-
-    <div class="column">
-        <div class="card">
-          <img class="card-img" src="./images/warren-jones-LFlVuWLjYEo-unsplash.jpg" alt="Jane" style="width:100%">
-          <div class="container">
-            <h2>Sneakers</h2>
-        
-            
-            <button class="btn-danger">VIEW
-              <a href="./sneakers.html">Go to</a>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="card">
-          <img class="card-img" src="./images/jeff-sheldon-Lj1S1_KD61k-unsplash.jpg" alt="Jane" style="width:100%">
-          <div class="container">
-            <h2>Smart Casual</h2>
-            
-            <button class="btn-danger">VIEW</button>
-          </div>
-        </div>
-      </div>
-
-     <div class="column">
-            <div class="card">
-              <img class="card-img" src="./images/mrushad-khombhadia-GlgDs6_WhTg-unsplash.jpg" alt="Sneakers"style="width:100%">
-              <div class="container">
-                <h2>Official Wear</h2>
-                 <button class="btn-danger">VIEW</button>
-              </div>
-            </div>
-          </div>   
-
-
-          <div class="column">
-            <div class="card">
-              <img class="card-img" src="./images/jeff-sheldon-Lj1S1_KD61k-unsplash.jpg" alt="Jane" style="width:100%">
-              <div class="container">
-                <h2>Smart Casual</h2>
-                
-                <button class="btn-danger">VIEW</button>
-              </div>
-            </div>
-          </div>
-    
-         <div class="column">
-                <div class="card">
-                  <img class="card-img" src="./images/mrushad-khombhadia-GlgDs6_WhTg-unsplash.jpg" alt="Sneakers"style="width:100%">
-                  <div class="container">
-                    <h2>Official Wear</h2>
-                     <button class="btn-danger">VIEW</button>
-                  </div>
-                </div>
-              </div>   
-              <div class="column">
-                <div class="card">
-                  <img class="card-img" src="./images/jeff-sheldon-Lj1S1_KD61k-unsplash.jpg" alt="Jane" style="width:100%">
-                  <div class="container">
-                    <h2>Smart Casual</h2>
-                    
-                    <button class="btn-dange" onclick="gotoLink(this)" value="sneakers.html">sneakers</button>
-                    </button>
-                  </div>
-                </div>
-              </div>
-        
-     <script>
-      function gotoLink(link){
-        console.log(link.value);
-        location.href ='sneakers.html';
-      }
-     </script>
-          
-          <!--
-<div class="column">
-<div class="team-members">
-    <h2>Our Team Members</h2>
-    <div class="team-member">
-        <img src="./images/jeff-sheldon-Lj1S1_KD61k-unsplash.jpg"
-            alt="Team Member 1"/>
-        <h3>Jane Smith</h3>
-        <p>Co-Founder & CEO</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ad quo ex aliquid eligendi,
-            dolores neque. Explicabo cum accusamus libero, sunt provident odit facere quos consequuntur,
-            itaque nulla error fuga?</p>
-    </div>
-    </div>
-</div>
-
-     <div class="column">
-    <div class="team-members">
-    <h2>Our Designers</h2>
-    <div class="team-member">
-        <img src="./images/jeff-sheldon-Lj1S1_KD61k-unsplash.jpg"
-            alt="Team Member 2"/>
-        <h3>Jane Smith</h3>
-        <p>Co-Founder & CEO</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ad quo ex aliquid eligendi,
-            dolores neque. Explicabo cum accusamus libero, sunt provident odit facere quos consequuntur,
-            itaque nulla error fuga?</p>
-    </div>
-    </div>
-     </div>
-    -->
+    </header>
+     
       
-     <!--
-     <div class="column">
-          <div class="card">
-            <img src="img1.jpg" alt="Jane" style="width:100%">
-            <div class="container">
-              <h2>Jane Doe</h2>
-              <p class="title">CEO &amp; Founder</p>
-              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-              <p>example@example.com</p>
-              <p><button class="button">Contact</button></p>
-            </div>
-          </div>
+
+
+    <!--
+    <div class="carousel">
+        <button class="carousel__button carousel__button--left">
+            <img src="./images/arrow-left-circle.svg" alt="">
+        </button>
+        <div class="carousel__track-container">
+         <ul class="carousel__track">
+            <li class="carousel__slide">
+                <img class="carousel__slide" src="./images/bill-wegener-8ldqRkOk5oo-unsplash.jpg" alt="">
+            </li>
+            <li class="carousel__slide">
+                <img class="carousel__slide" src="./images/larm-rmah-AEaTUnvneik-unsplash.jpg" alt="">
+            </li>
+            <li class="carousel__slide">
+                <img class="carousel__slide" src="./images/sunil-damor-kcwsNnTOtz0-unsplash.jpg" alt="">
+            </li>
+         </ul>
         </div>
-        
-    
-            <div class="column">
-              <div class="card">
-                <img src="img1.jpg" alt="Jane" style="width:100%">
-                <div class="container">
-                  <h2>Jane Doe</h2>
-                  <p class="title">CEO &amp; Founder</p>
-                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                  <p>example@example.com</p>
-                  <p><button class="button">Contact</button></p>
-                </div>
-              </div>
-            </div>
-        -->
-         
 
 
-
-
-    <!--boxes
-    <div class="container">
-        <div class="row">
-        <div class="col-md-4 col-lg-4">
-          <div class="card h-100">
-            <img src="./images/christian-5AQbDqMaSGg-unsplash.jpg" class="card-img-top" alt="Image 1">
-            <div class="card-body">
-              <h3 class="card-title">Card 1</h3>
-              <p class="card-text">Some example text.</p>
-            </div>
-          </div>
-         </div>
+        <button class="carousel__button carousel__button--right">
+            <img src="./images/arrow-right-circle.svg" alt="">
+        </button>
+        <div class="carousel__nav">
+            <button class="Carousel__indicator current-slide"></button>
+            <button class="Carousel__indicator"></button>
+            <button class="Carousel__indicator"></button>
         </div>
-         <div class="container">
-         <div class="row">
-         <div class="col-md-4 col-lg-4">
-               <div class="card-body h-100">
-                 <img src="./images/jeff-sheldon-Lj1S1_KD61k-unsplash.jpg" class="card-img-top" alt="Image 1">
-                 <div class="card-body">
-                   <h3 class="card-title">Card 1</h3>
-                   <p class="card-text">Some example text.</p>
-                   </div>
-               </div>
-         </div>
-                   <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-lg-4">
-                 <div class="card-body h-100">
-                 <img src="./images/waldemar-GbveIG8YKMk-unsplash.jpg" class="card-img-top" alt="Image 1">
-                <div class="card-body">
-                 <h3 class="card-title">women's collection</h3>
-                 <p class="card-text">Some example text.</p>
-                </div>
-                 </div>
-                </div> 
-                </div>
+    </div>
 
-            -->
-                
-            <!--
-              <section id="learn" class="p-5">
-                <div class="container">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-md">
-                            <img src="./images/jason-an-nO4bB9ucUVY-unsplash.jpg" class="img-fluid" alt=""/>
-                        </div>
-                        <div class="col-md p-5">
-                            <h2>Reporting on sustainability</h2>
-                            <p class="lead">
-                              We are super proud to have published our 2022 Sustainability Report.
-                              This celebrates some of the amazing things we’ve achieved with the support of our community, focused on Planet and People. 
-                              Join us as we continue our exciting sustainability journey
-                            </p>
-                            <a href="#" class="btn btn-dark mt-3">
-                             <i class="bi bi-chevron-right"></i>Read Report
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-    </main>
--->
-</body>
-</html>
+    -->
+
+ </body>
+ </html>
